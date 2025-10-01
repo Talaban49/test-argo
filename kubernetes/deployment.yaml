@@ -16,6 +16,6 @@ spec:
       - name: hello
         image: hashicorp/http-echo:latest
         args:
-        - "-text=Hello from main branch!"
+        - "-text=Login Feature!"
         ports:
         - containerPort: 5678
