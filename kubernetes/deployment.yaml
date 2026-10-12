@@ -16,6 +16,6 @@ spec:
       - name: hello
         image: hashicorp/http-echo:1.2.3.4
         args:
-        - "-text=Hello from main branch!"
+        - "-text=Hello everyone from main branch!"
         ports:
         - containerPort: 5678
