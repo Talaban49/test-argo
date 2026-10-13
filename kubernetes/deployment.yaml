@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hashicorp/http-echo:1.2.3.4
+        image: hashicorp/http-echo:latest
         args:
         - "-text=Hello everyone from main branch!"
         ports:
